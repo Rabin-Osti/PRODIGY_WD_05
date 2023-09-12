@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="#" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Weather App</h1>
+      <div class="search-container">
+        <input type="text" id="cityInput" placeholder="Enter your city" />
+        <div class="icon-container" id="searchIcon">
+          <div class="circle"></div>
+          <img src="/images/search.svg" alt="" />
+        </div>
+      </div>
+      <div class="weather">
+        <img class="weatherImage" src="/images/weather/default.png" alt="" />
+        <h2 class="weather-condition">Broken Clouds</h2>
+        <h2 class="degree">30°C</h2>
+        <h2 class="cityName">Mumbai</h2>
+      </div>
+      <div class="grid">
+        <div class="items">
+          <img src="/images/atmospheric.png" alt="" />
+          <div class="items-inner">
+            <h3>Pressure</h3>
+            <h4 class="pressure">3.6 hPa</h4>
+          </div>
+        </div>
+        <div class="items">
+          <img src="/images/wind.png" alt="" />
+          <div class="items-inner">
+            <h3>Wind</h3>
+            <h4 class="wind">3.6 m/s</h4>
+          </div>
+        </div>
+        <div class="items">
+          <img src="/images/vision.png" alt="" />
+          <div class="items-inner">
+            <h3>Visibility</h3>
+            <h4 class="visibility">3.6 m</h4>
+          </div>
+        </div>
+
+        <div class="items">
+          <img src="/images/humidity.png" alt="" />
+          <div class="items-inner">
+            <h3>Humidity</h3>
+            <h4 class="humidity">3.6 %</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
